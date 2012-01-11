@@ -1,0 +1,12 @@
+*.pyc
+*.swp
+*.db
+*.pyo
+*.ini
+.build
+docs/.build
+docs/_build
+*.egg-info
+data/
+.python-eggs
+*.swo
