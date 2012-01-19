@@ -1,0 +1,31 @@
+#game {
+    min-width:800px;
+    height:550px;
+    background-size: 100%;
+}
+
+#move_top {
+    height:10%;
+    clear:both;
+}
+#move_left {
+    height:80%;
+    width:10%;
+    float:left;
+}
+#move_center {
+    height:80%;
+}
+#move_right {
+    height:80%;
+    width:10%;
+    float:right;
+}
+#move_back {
+    height:10%;
+    clear:both;
+}
+
+.edit {
+    outline:solid;
+}
