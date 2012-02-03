@@ -40,8 +40,9 @@ install_requires=[
     "tw2.jqplugins.jqgrid",
     "tw2.jqplugins.jqplot",
     "tw2.jqplugins.portlets",
-    "webob<=1.1.1"
+    "webob<=1.1.1",
     "MySQL-python",
+    "tw2.jit",
     ]
 
 if sys.version_info[:2] == (2,4):
