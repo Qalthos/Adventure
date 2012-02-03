@@ -27,7 +27,7 @@ class GameController(BaseController):
         """It's a game!"""
         if not card_id:
             card = DBSession.query(Card).filter_by(special='root').first()
-            card_id = card.id
+            card.id = card_id
         else:
             card = DBSession.query(Card).filter_by(id=card_id).first()
 
