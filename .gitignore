@@ -1,12 +1,14 @@
-*.pyc
-*.swp
+*.py?
+*.sw?
 *.db
-*.pyo
 *.ini
+*.egg*
 .build
 docs/.build
 docs/_build
-*.egg-info
 data/
 .python-eggs
-*.swo
+
+# other stuff
+cards/
+cursors/
